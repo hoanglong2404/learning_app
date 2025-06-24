@@ -1,0 +1,53 @@
+# ElevenLabs API Configuration cho English Friends - Ứng dụng học tiếng Anh
+# Lấy API key từ: https://elevenlabs.io/app/settings/api-keys
+ELEVENLABS_API_KEY=your-api-key-here
+
+# Agent ID từ ElevenLabs dashboard
+# Lấy từ: https://elevenlabs.io/app/conversational-ai
+AGENT_ID=your-agent-id-here
+
+# Server Port (optional)
+PORT=3001
+
+# 📖 HƯỚNG DẪN THIẾT LẬP CHI TIẾT:
+# 
+# 🌟 Bước 1: Tạo tài khoản ElevenLabs
+# - Truy cập: https://elevenlabs.io
+# - Đăng ký tài khoản miễn phí
+# 
+# 🤖 Bước 2: Tạo Agent cho việc dạy tiếng Anh
+# - Vào phần "Conversational AI" → "Agents"
+# - Nhấn "Create Agent"
+# - Đặt tên: "English Teacher for Kids"
+# - Mô tả: "Friendly English teacher for elementary school students"
+# - Chọn giọng nói phù hợp (khuyến nghị: giọng nữ, nhẹ nhàng)
+# - Cấu hình prompt: "You are a friendly English teacher for elementary school children..."
+# 
+# 🔑 Bước 3: Lấy thông tin cần thiết
+# - API Key: Settings → API Keys → Create new key
+# - Agent ID: Trong trang Agent vừa tạo, copy Agent ID
+# 
+# 📁 Bước 4: Tạo file cấu hình
+# - Copy file này thành .env (bỏ phần "-example")
+# - Thay thế your-api-key-here và your-agent-id-here bằng thông tin thực tế
+# - Đảm bảo .env được thêm vào .gitignore để bảo mật
+# 
+# 🚀 Bước 5: Chạy ứng dụng
+# - npm install (nếu chưa cài)
+# - npm run dev
+# - Truy cập http://localhost:5173
+#
+# 💡 Lưu ý quan trọng:
+# - Giữ bí mật API key, không chia sẻ công khai
+# - Agent nên được cấu hình với ngôn ngữ phù hợp cho trẻ em
+# - Kiểm tra quota API để đảm bảo không bị giới hạn 
+
+# ElevenLabs Configuration
+ELEVENLABS_AGENT_ID=agent_01jydcakccesgstrkpemnj0a7n
+
+# Server Configuration
+PORT=3000
+NODE_ENV=development
+
+# Optional: Add your ElevenLabs API key if needed
+# ELEVENLABS_API_KEY=your_api_key_here 
